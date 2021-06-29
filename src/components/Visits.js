@@ -8,7 +8,7 @@ let Visits = () => {
   
     useEffect(() => {
       async function loadVisitas() {
-        const response = await api.get("api");
+        const response = await api.get("api/");
         console.log(response.data);
         setVisitas(response.data);
       }
