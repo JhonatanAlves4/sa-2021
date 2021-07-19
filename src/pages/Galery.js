@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+/*import React, { useState } from 'react'
 import api from "../services/api";
 
 import './Galery.css';
@@ -48,7 +48,7 @@ const Galery = () => {
         await api
             .get("imagem/")
             .then((response) => setUrl(response.data[1].link));
-    }*/
+    }
 
     return (
         <div className="container-galery">
@@ -97,4 +97,4 @@ const Galery = () => {
     );
 }
 
-export default Galery
+export default Galery;*/
